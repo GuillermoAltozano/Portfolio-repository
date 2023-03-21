@@ -1,0 +1,28 @@
+body{
+    background-color: #cccccc;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: center;
+    place-items: center;
+
+    text-align: center;
+    font-size: 1vw;
+
+}
+
+video{
+
+
+    max-width:700px;
+    max-height: 600px;
+
+    width: auto;
+    height: auto;
+}
+

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Portofolio pagina principal</title>
+        <link rel="stylesheet" href="css/WebCSS.css" type="text/css">
+        <script src="js/WebJavaScript.js" defer></script>
+    </head>
+
+    <body onload = "activar()">
+        <header><h1 class="titulo">Guillermo Altozano</h1></header>
+
+        <slider>
+            <sliderSection>
+                <p id="sliderTexto">TrabajoText</p>
+            </sliderSection>
+
+            <img src="" id="Imagen">
+        </slider>
+
+
+        <nav>
+            <a id="navElement" class="Button" href="html/DiseñoDeNivelesHTML.html">Diseño de niveles</a>
+            <a id="navElement" class="Button" href="html/DiseñoAudiovisualHTML.html">Diseño Audiovisual</a>
+            <a id="navElement" class="Button" href="html/ProgramacionHTML.html">Programación en C#/Blueprints</a>
+            <a id="navElement" class="Button" href="html/ModeladoHTML.html">Modelado 3D</a>
+        </nav>
+
+        <main>
+            
+            <intro>
+                <p>Bienvenidos. Mi nombre es Guillermo Altozano, graduado en la universidad española U-Tad en un grado de Diseño y Desarrollo de Productos Interactivos.</p>
+                <p>En las siguientes paginas esta publicadas diferentes muestras de varios de los trabajos y asignaturas cursadas a lo largo de mi carrera universitaria.</p>
+                <p>Este portofolio tiene desde Diseño de niveles, Edición Audiovisual y Programación en C# y Blueprints, hasta muestras y ejercicios de Modelado 3D en 3DMax y substance.</p> 
+                <p>Esta pagina web en si me sirve tambien para mostrar en parte las habilidades adquiridas durante la asignatura de diseño web, desde HTML a JavaScript pasando por CSS.</p>
+                <p>Información de contacto se encontrara en el fondo. Muchisimas gracias por tomarse su tiempo en este portofolio.</p>
+            </intro>
+
+            
+
+            <windows>
+                <section id="niveles">
+                   <text> 
+                       <p>"Diseño de Niveles: Desde la estructura de un nivel a su progresión mecanica y narrativa, un Diseñador de niveles debe crear espacios que usen las herramientas ofrecidas al jugador de manera interesante.</p>
+                       <p>En esta pagina muestro una serie de imagenes sobre un trabajo individual en este apartado, donde se pidió el diseño y desarrollo de un nivel completo basado en un juego ya existente.</p>
+                       <p>El videojuego a imitar terminaria siendo Aragami, una obra del genero del sigilo de un grupo de desarrolladores españoles. El juego destaca principalmente por el uso de sombras y la habilidad del jugador de teletransportase entre ellas.</p>
+                       <p>Para este ejercicio era necesario crear tanto el layout nivel como su progresión, los puzles - ademas de la programación y decorado de todas las mecanicas necesarias para completar el nivel."</p>
+                       <p>Parte de esta programación se reutilizo de codigo publico dentro de la propia Asset Store, modificado para adaptarse a las necesidades del juego.</p>
+                    </text>
+                        <div><input type="button" value="Diseño de niveles" onclick="loadScreen(value)" id="nombre"></div>
+                </section>
+
+                <section id="audiovisual">
+                    <text> 
+                        <p>"Diseño Audiovisual: A continuación mostramos una serie de muestras de diferentes proyectos en los que se nos puso a prueba sobre diferentes casos de edición de video y sonido.</p>
+                        <p>Entre los videos presentados, diferentes ejercicios relacionados con la edición de audio, el uso de sonidos de muestra para crear efectos de sonido convincentes y adaptarlos a un formato de video concreto.</p>
+                        <p>La edición tanto de video como de audio son producto de programas dentro de los displonibles en Adobe Creative Cloud, entre Premiere, After Effects y diferentes plug-ins.</p>
+                        <p>La ultima muestra, la entrega final de la asignatura, es una edición de 30 segundos mezclando imagenes de muestra del videojuego Wolfestein y audio de la serie Team A."</p>
+                     </text>
+                   <div><input type="button" value="Diseño Audiovisual" onclick="loadScreen(value)" id="nombre"></div> 
+                </section>
+
+                <section id="programacion">
+                    <text> 
+                        <p>"Programación: En el siguiente enlace se presentan diferentes ejemplos de ejercicios en C# para Unity y Blueprints de Unreal, dos motores graficos en el diseño de videojuegos.</p>
+                        <p>En Unity, muestras de codigo para un juego en 3D sobre un First Person Shooter que utiliza una macanica de "Gancho" para poder acercarse y balancearse entre niveles.</p>
+                        <p>Para Unreal, imagenes de un codigo de inteligencia artificial en su arbol de comportamiento y un ejemplo de arbol de decisiones para con sus animaciones."</p>
+                     </text>
+                    <div><input type="button" value="Programación en C#/Blueprints" onclick="loadScreen(value)" id="nombre"></div>
+                </section>
+
+                <section id="modelado">
+                    <text> 
+                        <p>"Modelado 3D: Una serie de muestras de diferentes modelos en 3DMax, substance y su integración en Unreal.</p>
+                        <p>La primera muestra es un ejercicio completo sobre el modelado y vestido de un avión de juguete, con texturas y materiales de Substance.</p>
+                        <p>El segundo caso es una muestra de la estructura de un modelo de revolver en 3DMax, antes de ser enviado a Substance para su vestido.</p>
+                        <p>El ultimo ejemplo se trata de una serie de modulos de paredes y decorados pensados para crear edificios y entornos en Unreal si tener que diseñarlo por completo en un solo paso."</p>
+                     </text>
+                    <div><input type="button" value="Modelado 3D" onclick="loadScreen(value)" id="nombre"></div>
+                </section>
+            </windows>                  
+        </main>
+        <footer>
+
+            <img src="media/img/DancingGuillermo.gif" id="Perfil">
+
+            <section2>
+            <p>Guillermo Altozano Salazar</p>
+            <p>Graduado de Diseño y Desarrollo de Productos Interactivos (2021 - 2022)</p>
+            <p>Perfil de contacto: guillermoaltozano@gmail.com (Gmail)</p>
+            </section2>          
+        </footer>
+    </body>
+</html>
